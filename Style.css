@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+
+}
+.page {
+
+}
+.footer{
+
+}
+.column {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+}
+.page .column {
+    height: 100vh;
+}
