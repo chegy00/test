@@ -4,6 +4,7 @@ body {
 }
 .header {
 
+
 }
 .page {
 
@@ -18,4 +19,31 @@ body {
 }
 .page .column {
     height: 100vh;
+}
+
+#logo-i-social {
+    display: flex;
+}
+#logo-holder {
+    flex-grow: 1;
+}
+#social-holder {
+    flex-grow: 1;
+    text-align: right;
+}
+#main-manu {
+    display: flex;
+}
+#main-manu a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #dc0101;
+    transition: 300ms;
+}
+#main-manu a:hover {
+    background: #dc0101;
+    color: #ffffff;
 }
