@@ -3,6 +3,7 @@ body {
     padding: 0px;
 }
 .header {
+    border-bottom: 2px solid #dc0101;
 
 
 }
@@ -13,7 +14,7 @@ body {
 
 }
 .column {
-    border: 1px solid black;
+   /* border: 1px solid black; */
     width: 1000px;
     margin: 0px auto;
 }
@@ -46,4 +47,18 @@ body {
 #main-manu a:hover {
     background: #dc0101;
     color: #ffffff;
+}
+#pocetna {
+    text-align: center;
+
+    background: url('C:\Users\David Cegar\WebstormProjects\test2\style\source\img\sky.jpg');
+
+}
+#pocetna h1 {
+    font-size: 48pt;
+}
+.dark-box {
+    background: #99999925;
+    border: 1px solid #ffffff;
+    font-size: 24pt;
 }
