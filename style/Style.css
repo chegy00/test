@@ -7,14 +7,15 @@ body {
 
 
 }
-.page {
+.page {;
+
 
 }
 .footer{
 
 }
 .column {
-   /* border: 1px solid black; */
+
     width: 1000px;
     margin: 0px auto;
 }
@@ -24,6 +25,7 @@ body {
 
 #logo-i-social {
     display: flex;
+
 }
 #logo-holder {
     flex-grow: 1;
@@ -32,6 +34,14 @@ body {
     flex-grow: 1;
     text-align: right;
 }
+#social-holder a {
+    text-decoration: none;
+}
+#social-holder a img{
+    height: 24px;
+    width: 24px;
+}
+
 #main-manu {
     display: flex;
 }
@@ -50,15 +60,30 @@ body {
 }
 #pocetna {
     text-align: center;
-
-    background: url('C:\Users\David Cegar\WebstormProjects\test2\style\source\img\sky.jpg');
+    background-color: #ffffff;
+    background: url(./source/img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 #pocetna h1 {
     font-size: 48pt;
+    margin-top: 0px;
+    padding-top: calc(50vh - 250px);
+
 }
 .dark-box {
-    background: #99999925;
+    background: #33333330;
     border: 1px solid #ffffff;
     font-size: 24pt;
+}
+#usluge {
+    background: url(./source/img/background5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#karijera {
+    background: url(./source/img/background6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
